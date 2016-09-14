@@ -1,0 +1,10 @@
+1. opened terminal
+2. cd ./desktop
+3. mkdir test
+4. cd ./test -> touch index.html styles.css commands.txt
+5. cp index.html index_2.html
+6. cd .. -> mkdir destination
+7. mv ./test/index_2.html ./destination
+8. rm -rf ./test/styles.css
+9. cd ./test -> ls -> cd .. -> cd ./destination -> ls
+10. cd .. -> rm -rf ./destination
