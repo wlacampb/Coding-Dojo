@@ -1,0 +1,63 @@
+* { /* stops the browser from tinkering with positioning */
+      -moz-margin-after:0;
+      -moz-margin-before:0;
+      -webkit-margin-after:0;
+      -webkit-margin-before:0;
+      margin:0;
+      padding:0;}
+body {
+      font-size:12px;}
+.wrapper { /* gray around everything */
+      background:#ececec;
+      height:480.5px;   
+      margin:0;
+      padding:25px 25px 125px;
+      width:1104px;}
+span { /* constructs each box */
+      background:rgba(255,255,255,0);
+      border:1px solid #000;
+      display:inline-block;
+      height:50px;
+      margin:0 2.5px;
+      width:50px;}
+.label-axis { /* styles the axes */
+      border:1px solid rgba(255,255,255,0);
+      color:red;
+      text-align:center;
+      vertical-align:top;}
+.box { /* aligns text in each SPAN */
+      text-align:center;}
+.box-margin-left { /* moves the 4th column */
+      margin-left:12.5px;}
+.box-10 { /* large space in rows 3 and 4 */
+      margin-left:583px;}
+.box-16 { /* large space in row 2 */
+      margin-left:925px;}
+.row-2 span:nth-child(n+2):nth-child(-n+2),.row-3 span:nth-child(n+2):nth-child(-n+3),.row-4 span:nth-child(n+2):nth-child(-n+3),.row-5 span:nth-child(n+2):nth-child(-n+3),.row-6 span:nth-child(n+2):nth-child(-n+3),.row-7 span:nth-child(n+2):nth-child(-n+3),.row-8 span:nth-child(n+2):nth-child(-n+3) { /* makes what is blue blue */
+      background:#689bff;}
+.row-2 span:nth-child(n+3):nth-child(-n+3), .row-3 span:nth-child(n+4):nth-child(-n+9), .row-4 span:nth-child(n+4):nth-child(-n+9), .row-5 span:nth-child(n+14):nth-child(-n+19), .row-6 span:nth-child(n+14):nth-child(-n+19), .row-7 span:nth-child(n+14):nth-child(-n+19), .row-8 span:nth-child(n+14):nth-child(-n+19) { /* makes what is orange orange */
+      background:#fecb00;} 
+.row-5 span:nth-child(n+4):nth-child(-n+13),.row-6 span:nth-child(n+4):nth-child(-n+13),.row-7 span:nth-child(n+4):nth-child(-n+13),.row-8 span:nth-child(n+4):nth-child(-n+13) { /* makes what is pink pink*/
+      background:#fd9a9a;}
+.row-1,.row-2,.row-3,.row-4,.row-5,.row-6,.row-7,.row-9 {
+      height:50px; /* ensures right vertical spacing by collapsing against spans */
+      margin-bottom:5px; /* likewise */
+      width:1103px;} /*ensures .wrapper padding is only 25px out */
+.row-8 {
+      height:50px;
+      margin-bottom:25px; /* space between row 8 and the rest */
+      width:1103px;}
+.label-special-name {
+      border:1px solid rgba(255,255,255,0); /* makes border invisible */
+      color:rgba(255,255,255,0); /* hides all text in special spans except .visible */
+      text-align:center;}
+.visible {
+      background:#ececec;
+      border:1px solid rgba(255,255,255,0);
+      color:red;
+      height:0;}
+.row-9 .box,.row-10 .box { /* makes what is green green */
+      background:#21ca21;}
+.row-10 {
+      height:50px;
+      width:1103px;}
