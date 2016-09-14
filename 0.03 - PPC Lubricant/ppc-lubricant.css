@@ -1,0 +1,165 @@
+
+/* CSS Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    
+    line-height: 1.25;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.wrapper {
+    margin: 0px auto;
+    width: 960px;
+    background-color: rgb(250,250,250); 
+}
+
+.header {
+    width: 960px;
+    height: 70px;
+}
+
+header img, h1 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+[src="PPC-logo.png"] {
+    margin-left: 20px;
+}
+
+div h1 {
+    margin-top: 25px;
+    margin-left: 275px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #ed6a5e;
+    color: white;
+    font-size: 17.5px;
+}
+
+.navbar {
+    background-color: rgb(215,222,229);
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+    border-right: 1px solid rgb(208,208,208);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+#li-first {
+    margin-left: 40px;
+    border-left: 1px solid rgb(208,208,208);
+}
+
+.buffer {
+    height: 34px;
+}
+
+.container {
+    width: 960px;
+    background-color: rgb(15,15,15);
+}
+
+.main-content {
+    margin: 0 auto;
+    padding: 12.5px 0px;
+    width: 885px;
+    background-color: rgb(15,15,15);
+}
+
+[src="main_pic.png"] {
+    display: inline-block;
+    width: 377px;
+    height: 255px;
+    border: 5px solid white;
+    vertical-align: top;
+}
+
+.inline-block-me {
+    display: inline-block; 
+    margin-left: 12.5px;
+    height: 265px;
+    background-color: rgb(121,121,121);
+}
+
+.inline-block-me>h3 {
+    padding: 5px 0px 5px 12.5px;
+    background-color: rgb(250,207,95);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.about {
+    margin-right: 37.5px;
+    margin-left: 25px;
+    width: 418px;
+    color: white;
+    vertical-align: top;
+    font-size: 11.5px;
+}
+
+.about h3, p {
+    margin-top: 15px;
+}
+
+#caption {
+    margin-top: 0px;
+    padding: 10px 0px 10px 12.5px;
+    color:  rgb(250,207,95);
+    font-size: 10px;
+}
+
+#inline {
+    margin-left: 15px;
+    vertical-align: 33%;
+}
+
+.segment {
+    display: inline-block; 
+    margin-left: 12.5px;
+    width: 208px;
+    height: 250px;
+    background-color: rgb(250,250,250);
+    vertical-align: top; 
+}
+
+#first-segment {
+    margin-left: 0px;
+}
+
+.segment img {
+    width: 208px;
+}
+
+.segment>h3 {
+    padding: 5px 0px 5px 12.5px;
+    background-color: rgb(250,207,95);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.segment>p {
+    margin: 5px 12.5px 0px 12.5px;
+    height: 90px;
+    font-size: 11px;
+}
+
+.segment>a {
+    margin-left: 60px;
+    padding: 3px 6px;
+    border: 1px solid black;
+    background-color: rgb(250,207,95);
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
