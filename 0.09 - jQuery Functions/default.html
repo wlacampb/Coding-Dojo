@@ -4,9 +4,49 @@
             <title>default</title>
             <link rel="stylesheet" href="sanitize.css">
             <link rel="stylesheet" href="default.css">
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-            <script src="default.js"></script>
+            <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+            <script type="text/javascript" src="default.js"></script>
       </head>
       <body>
+            <p>I decided to deconstruct examples from stackoverflow and the jQuery docs and play with them to see why we need each part. Thought about it and jQuery is kinda easy. jQuery listens for events through handlers and executes function on target data structures, which often have arguments that must be specified so it knows exactly what kind of changes we are looking for. For example, if someone says, "When I say jump, I want you to ask: 'How high?'" Our listener are our ears, the function is "jump," the target data structure is "I," and the parameter that must be specified by an argument is, of course, "high," hence, obviously, "How high?" with "how" as a prompt. Thinking about programs as living organisms makes things easier and a bit more amusing, because then coding becomes almost like a conversation with a partner or spouse -- loving and rewarding -- albeit, one you have to watch your mouth around, because, well, you have a big mouth and, otherwise, you'd get yelled at by the debugger for saying the wrong things . . . . </p>
+            <hr>
+            <p id="myParagraph">This is my paragraph! </p>
+            <button>Click me to change the paragraph! </button>
+            <hr>
+            <form>
+                  <input id="focusOnMe" type="text" value="username" placeholder="username">
+            </form>
+            <hr>
+            <p id="addClass">make me aqua</p>
+            <hr>
+            <input id="val" type="text" value="some text">
+            <p id="inputHere"></p>
+            <hr>
+            <p id="getAttr"></p>
+            <p>Once there was a <em title="huge, gigantic">large</em> dinosaur...</p>
+            The title of the emphasis is:<div id="iAmDiv"></div>
+            <hr>
+            <div class="iAmNotDiv"></div>
+            <div class="iAmNotDiv"></div>
+            <div class="iAmNotDiv"></div>
+            <hr>
+            <div class="nah">A div</div>
+            <button class="blah">Get "blah" from the div</button>
+            <button class="blah">Set "blah" to "hello"</button>
+            <button class="blah">Set "blah" to 86</button>
+            <button class="blah">Remove "blah" from the div</button>
+            <p>The "blah" value of this div is <span>?</span></p>
+            <hr>
+            <div class="target">This is the target div to which new elements are associated using jQuery</div>
+            <p>This is an awesome explanation I found <a href="http://stackoverflow.com/questions/14846506/append-prepend-after-and-before">here</a>!</p>
+            <hr>
+            <button class="show-me">Show it</button>
+            <button class="hide-me">Hide it</button>
+            <button class="toggle-me">Toggle it</button>
+            <p class="yellow">Hello  2</p>
+            <hr>
+            <p> Let it be known that the party of the first part and the party of the second part are henceforth and hereto directed to assess the allegations for factual correctness... (<a class="click-me" href="#">click!</a>)<div class="censored-1"><span class="censored-2">CENSORED!</span></div></p>
+            <hr>
+            <p>I decided that I understood the syntax well enough to just move on beyond slideDown, slideUp, and slideToggle!</p>
       </body>
 </html>

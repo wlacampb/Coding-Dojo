@@ -1,0 +1,54 @@
+.aqua {
+      color: aqua; 
+}
+
+body {
+  padding:50px;   
+}
+
+.target {
+  border:2px solid #bbb;
+  background-color:#eee;
+  padding:10px;
+  margin:10px auto;
+}
+
+.child {
+  display:block;
+  width:65px;
+  font:bold 12px Arial,Sans-Serif;
+  color:white;
+  padding:5px 10px;
+  background-color:DarkRed;    
+}
+
+ .sibling {
+  display:block;
+  width:70px;
+  font:bold 12px Arial,Sans-Serif;
+  color:white;
+  padding:5px 10px;
+  background-color:black;    
+}
+
+p.yellow {
+      display: none;
+      background: yellow; 
+}
+
+.censored-1, .censored-2 {
+	display: none;
+}
+
+.censored-1 {
+      width: 400px;
+      height: 65px;
+      font-size: 36px;
+      text-align: center;
+      color: yellow;
+      background: red;
+      padding: 25px 25px 75px 25px;
+      top: 0;
+      left: 0;
+      display: none;
+}
