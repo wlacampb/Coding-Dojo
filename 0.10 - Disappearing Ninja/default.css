@@ -1,0 +1,48 @@
+body {
+      background-color: rgb(246, 246, 246);
+      padding-top: 0px;
+}
+
+.navbar {
+      position: relative;
+      margin-bottom: 0px;
+}
+
+.navbar-brand {
+      position: absolute;
+      left: 50%;
+      margin-left: -50px !important;
+      /* 50% of your logo width */
+      display: block;
+      padding-bottom: 25px; 
+}
+
+.navbar-brand img {
+      height: 25px;
+}
+
+.jumbotron {
+      background-color: rgb(75, 57, 74);
+      padding-top: 24px; 
+}
+
+h1 {
+      margin-bottom: 3.3%; 
+}
+
+.container-center {
+      color: white;
+      text-align: center;
+}
+
+span {
+      text-decoration: line-through;
+}
+
+.btn-down {
+      margin-top: 2%;
+}
+
+.thumbnail {
+      border: none;
+}
