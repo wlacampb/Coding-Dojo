@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="utf-8">
+      <title>Ninja to Cat</title>
+      <link rel="stylesheet" href="sanitize.css">
+      <link rel="stylesheet" href="default.css">
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <script type="text/javascript" src="default.js"></script>
+</head>
+
+<body>
+      <table>
+            <thead>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Email Address</th>
+                  <th>Contact #</th>
+            </thead>
+            <tbody>
+            </tbody>
+      </table>
+      
+      <div class="wrapper">
+            <h1>Add User</h1>
+            <form>
+                  <div class="inputBlock">
+                        <label for="firstName">First Name: </label>
+                        <input class="input" type="text" name="firstName" placeholder="First Name">
+                  </div>
+                  <div class="inputBlock">
+                        <label for="lastName">Last Name: </label>
+                        <input class="input" type="text" name="lastName" placeholder="Last Name">
+                  </div>
+                  <div class="inputBlock">
+                        <label for="emailAddress">Email Address: </label>
+                        <input class="input" type="email" name="emailAddress" placeholder="Email Address">
+                  </div>
+                  <div class="inputBlock">
+                        <label for="contactNumber">Contact No.: </label>
+                        <input class="input" type="text" name="contactNumber" placeholder="Phone #">
+                  </div>
+                  <input id="submit" type="submit" name="addUser" value="Add User">
+            </form>
+      </div>
+</body>
+
+</html>
