@@ -1,0 +1,149 @@
+*
+computer science -> studies how we take input and get some output through the use of algorithms
+binary -> the form of a computer’s inputs and outputs
+api -> application programming interface
+ascii -> arbitrary but consistent standard that maps numbers to letters
+algorithm graph -> size of problem vs. time to solve
+source code -> pre-compiled code
+object code -> compiled code
+compiler -> converts code written in one programming language into assembly
+assemble -> convert assembly into binary
+array -> list of values
+thread -> sequence of instructions
+cloud -> computers elsewhere accessed on local machine
+library -> a list of functions
+casting -> switch between data types
+search -> find data in array
+link -> put code together from different source files already assembled into an executable
+- xor swap -> a trick for performance-critical apps to swap variables without tmp variable that
+- closure -> function inside another function that has access to variables of the function it’s inside / stack for values in outer function that are not freed when returned so inner functions can access them
+- prototype -> you are an object — not a primitive — and from your parents — the prototypes — you take on — inherit — some of their characteristics
+- reference -> think of it like the different nicknames you’ve had over your lifetime, they are all references to you
+instance -> you are an instance of a human
+first-class functions -> language that accepts functions as arguments in other functions
+hexadecimal - base-16 preceded by 0x
+- struct -> create new data type by grouping variables together in same memory block and access by using as variable with properties with method and [i]-th array location
+malloc -> allocate memory
+* -> dereferencing operator
+- & -> address-of — when prefixed to argument it passes the address of a variable instead of a value, which is important because if you just give reference a variable you create a local copy of a variable because you need a dereferencing operator, i.e. * and &, to manipulate the original
+file i/o -> read, write, append, and so on
+garbage -> what was in memory address before use
+leak -> memory lost due to orphaning and so on
+foo, bar, baz -> metasyntactic variables for c
+spam, ham, eggs -> metasyntactic variables for python
+tcp -> transmission control protocol
+ip -> internet protocol
+router -> a networking device — gateway — that forwards data packets between computer networks
+packet -> information in some format
+port -> identifies service
+- firewall -> a network security system that monitors and controls the incoming and outgoing network traffic based on predetermined security rules
+vpn -> connect to Internet through unblocked server
+
+array -> a block of info stored in the same place
+linked list -> a collection of nodes pointing to each other
+queue -> FIFO
+priority -> doesn’t assume equality of steps
+stack -> LIFO, or just think of callbacks
+tree -> root then whatever pretty much
+binary -> node has at most 2 children
+hash -> dewey decimal
+trie -> tree w/ arrays as children
+
+stack (memory management) -> the call stack, which stores info about the executing function, local variables, and, if it is a callback, what function called the current function
+heap (memory management) -> free store, which is the memory pool allocated to an application
+pointer (memory management) -> a variable that link values — like “asdf” — to memory addresses — 0, 1, 2, 3 — which we can grok by just thinking about shortcuts — through a de-referencing operation that simply is the *pointing* for example, of the user to the thing targeted by the shortcut
+
+algorithm -> a sequence of instructions that enlists various computational resources to carry out a variety of transformations on specified data
+space complexity -> how much memory is needed to store the instructions, constants, values, and environment information needed to resume suspended functions
+time complexity -> the runtime of the program usually expressed in big-O notation
+
+bitwise operators -> manipulate bits instead of bytes
+operators -> &, |, ^,  &, ~, <<, >>
+& - and gate
+| - non-exclusive or gate
+^ - exclusive or gate
+~ - bit flipper
+<< - left shift
+>> - right shift
+
+>>>https://betterexplained.com/articles/sorting-algorithms/<<<
+sort -> order an array
+bubble b(n) w(n^2) -> Starting on the left, compare adjacent items and keep “bubbling” the larger one to the right (it’s in its final place). Bubble sort the remaining N -1 items.
+select a(n^2) -> Scan all items and find the smallest. Swap it into position as the first item. Repeat the selection sort on the remaining N-1 items.
+insertion b(n) w(n ^ 2) -> Start with a sorted list of 1 element on the left, and N-1 unsorted items on the right. Take the first unsorted item (element #2) and insert it into the sorted list, moving elements as necessary. We now have a sorted list of size 2, and N -2 unsorted elements. Repeat for all elements.
+merge -> divide and conquer
+
+big-O -> upper bound of runtime / efficiency in steps
+omega -> lower bound of runtime / efficiency in steps
+*
+
+
+*
+apparently, when we call a string, we are not calling stored values, which we think of as THE STRING, but the STRING OF MEMORY ADDRESSES from which the values preceding the \0 can be actually called and operated upon, which is, in retrospect, an obvious step because we need to point to where we are storing the string values otherwise, well, where else are we going to get the values from then
+
+evidently, when I use language not abstracted from memory, my variables are pointers and I must allocate a new memory block to what I want to function as a new variable — instead of having a pointer point to another pointer and, thus, operate on the original variable; also, when I use a language abstracted from memory, this operation is automated
+
+pointers of pointers can be used to create data structures . . . like chars inside words inside sentences inside paragraphs inside arbitrary higher-level divisions from there like books, narrative sections, and so on || how this translate into practical implementations of things — other than in a vague way using a dictionary, breaking it down as the aforementioned data structure, then using these meta-pointers as methods to access specific data — is pretty shaky to me
+
+I can imagine one use of a linked list over an array is when you need to write / delete a lot but random access is not so common . . . why does every tutorial on data structures have to be so abstract? I thrive in abstractions but, jeez, could I please have a concrete example of where this applies . . . that’d be great . . .
+-> https://www.topcoder.com/community/data-science/data-science-tutorials/data-structures/
+-> aww yeah, haha
+*
+
+
+**
+n -> size of problem
+- number of pages in phonebook = n
+- page-by-page: n
+- two-page: n/2
+- divide-and-conquer: log n
+**
+
+
+***
+pseudocode -> generic way of describing an algorithm or program
+- EXECUTION -> runtime
+-> axiology
+- GOAL / WORLD-ENVIRONMENT -> n, event
+-> history, ontology, foresight
+- VALUE -> binary, variable, primitive, command, data structure
+-> epistemology
+- IF / THEN -> branch, conditional
+-> praxeology — non-pure Being
+- FUNCTION -> instruction, handler
+-> praxeology - pure Being
+
+e.g., a parameter is a variable used to define a function
+e.g., an argument is the data passed into the parameters
+e.g., a recursive function is a function that calls itself
+e.g., a callback is a function used as a parameter for another function
+e.g., an array is a class of values
+e.g., a loop is a function that iterates contingently
+e.g., a statement is a line of code
+e.g., an event has a listener and handler
+-> the listener checks for changes
+-> the handler carries out the branch which specifies a function
+e.g., a function is a thread of instructions
+e.g., a method is a function associated with an object
+e.g., scope is the context in which data can be accessed
+
+instruction || function, conditional
+data || structure, parameter, value, type, scope
+resource || HARDWARE
+***
+
+
+*
+what is the difference between data type and data structure?
+-> structure is molecule and type is atom OR structure is precise mathematical construct and type is a class of things that share some quality
+
+what are the different assumptions that compose the various data structures? what are the fundamental factors that vary from type to type?
+-> https://www.youtube.com/watch?v=92S4zgXN17o&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=2
+
+likewise for the various sorts?
+-> . . .
+
+the biggest problem I have is figuring out the computational cost of algorithms on various data structures
+-> ideally, I would be able to calculate the upper and lower-bounds of each data structure’s time complexity for access, search, insertion, and deletion and space complexity, implement them, and, then, figure out the same for each of the different sorts
+-> eventually, I would like to understand the “lego bricks” of data structures and sorts to have a comprehensive view of what is possible and what factors would come into consideration using OTR and bespoke data structures and sorts 
+*
