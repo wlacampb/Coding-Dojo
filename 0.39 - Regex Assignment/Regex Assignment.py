@@ -13,6 +13,6 @@ get_matching_words(r"b\wb")
 get_matching_words(r"b\w+")
 get_matching_words(r"b\w*b")
 get_matching_words(r"\w*a\w*e\w*i\w*o\w*u")
-get_matching_words(r"^[regularexpsion]*$") # "^...$" evaluates from the beginning of the str, parses the first char for the specified chars "regularexpsion," parses the rest of the characters as such, and only prints the item from the arr if every character is a specific char
+get_matching_words(r"^[regularexpsion]*$") # "^...$" evaluates from the beginning of the str, parses the first char for the specified chars "regularexpsion," parses the rest of the characters as such, and only prints the item from the arr if each character used corresponds to a char in the specified array
 get_matching_words(r"(.)\1")
 print ""
